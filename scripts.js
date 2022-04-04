@@ -21,7 +21,9 @@ function toggleActive(e) {
   // > affects submit button
   if (activeNumber.classList.contains("highlight-number")) {
     isActive = true;
-  } else isActive = false;
+  } else {
+    isActive = false;
+  }
 
   // untoggle current, if click on other numbers
   numbersArray.forEach((number) => {
