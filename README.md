@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- [Live site](https://your-live-site-url.com)
+- [Live site](https://hhurdev.github.io/fem_interactive-rating-component/)
 
 ## My process
 
