@@ -1,8 +1,9 @@
 const numbers = document.querySelectorAll(".number");
 const numbersArray = Array.from(numbers);
-const selection = document.querySelector(".selection");
+const selectedRatingSpan = document.querySelector(".selected-rating");
 const ratingPage = document.querySelector(".rating-content");
 const thankyouPage = document.querySelector(".thank-you-content");
+const container = document.querySelector(".container");
 
 const submitButton = document.querySelector(".btn-submit");
 
@@ -37,12 +38,22 @@ function submitRating(e) {
   if (!isActive) {
     return;
   }
-  selection.innerHTML = lastClicked;
+  selectedRatingSpan.innerHTML = lastClicked;
   ratingPage.classList.add("hidden");
   thankyouPage.classList.remove("hidden");
 }
 
+function disableSelections(e) {
+  if (!e.target.classList.contains('number')) {
+    numbersArray.forEach((number) => {
+      number.classList.remove("highlight-number");
+    });
+  }
+}
+
+
 submitButton.addEventListener("click", submitRating);
+container.addEventListener("click", disableSelections);
 
 numbers.forEach((number) => {
   number.addEventListener("click", toggleActive);
