@@ -1,0 +1,17 @@
+.attribution {
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    color: lighten($bg-dark, 20);
+
+  a {
+    color: lighten($bg-dark, 20);
+    text-decoration: none;
+    font-weight: $bold-font-weight;
+    &:hover {
+      color: $medium-grey;
+    }
+  }
+}

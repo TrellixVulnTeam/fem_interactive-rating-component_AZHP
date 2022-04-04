@@ -1,0 +1,24 @@
+@import 'utils';
+
+.thank-you-content {
+  @extend %content;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 40px 40px 40px 30px;
+  
+  p {
+    font-weight: $light-font-weight;
+    margin-top: -30px;
+  }
+
+  .selection-note {
+    color: $primary-color;
+    font-size: 0.8em;
+    background-color: lighten($bg-medium, 10);
+    padding: 8px 20px;
+    border-radius: 20px;
+  }
+
+}
+

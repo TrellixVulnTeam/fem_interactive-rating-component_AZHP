@@ -1,0 +1,22 @@
+{
+  "name": "interactive-rating-component-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhurdev/fem_interactive-rating-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhurdev/fem_interactive-rating-component/issues"
+  },
+  "homepage": "https://github.com/hhurdev/fem_interactive-rating-component#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

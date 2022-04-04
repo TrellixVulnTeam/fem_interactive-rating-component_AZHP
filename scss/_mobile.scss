@@ -1,0 +1,32 @@
+@media only screen and (max-width: 450px) {
+  .container {
+    text-align: center;
+
+    .ratings-container {
+      max-width: 328px;
+
+      .rating-content {
+        padding: 25px 23px 41px 23px !important;
+
+        .numbers {
+          width: 100%;
+        }
+
+        .number {
+          width: 42px;
+          height: 42px;
+          font-size: 12px;
+          line-height: 0.9;
+        }
+      }
+
+      .thank-you-content {
+        padding: 35px 30px 45px !important;
+      }
+    }
+
+    .attribution {
+      width: 65%;
+    }
+  }
+}

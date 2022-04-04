@@ -1,0 +1,22 @@
+%content {
+  height: 100%;
+      padding: 30px 40px 30px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+
+.hidden {
+  display: none !important;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+p {
+  margin-top: -20px;
+  font-weight: $light-font-weight;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
